@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.navbar-brand img{
+    width:100px;
+    height:90px;
+}
+.banner{
+    width:80%;
+    margin:0 auto;
+    margin-top:50px;
+    height:50vh;
+}
+.collapse ul li a i{
+    margin-right:5px;
+    font-size:15px;
+    transition:0.3s;
+}
+.collapse ul li a:hover i{
+    transform:scale(1.3);
+}
+.banner,.row{
+    margin-top:50px;
+}
+.col h1{
+    font-family: 'Dancing Script', cursive;
+    font-size:60px;
+    
+}
+.col p{
+    font-family: 'Dancing Script', cursive;
+}
+.col span{
+    color:red;
+}
+/*------start about us-----*/
+#aboutus{
+    margin-top:150px;
+}
+.container{
+    text-align:justify;
+}
+.container h1{
+    font-family: 'Dancing Script', cursive;
+}
+.container h1 span{
+    color:red;
+}
+/*------start services-----*/
+.container h1{
+    font-size:60px;
+}
+.card-group img{
+    transition:0.3s;
+}
+.card-group img:hover{
+    transform:scale(.9);
+}
+.image1,
+.image2,
+.image3,
+.image4{
+    height:410px;
+}
+.product1,
+.product3,
+.product4{
+    height:180px;
+}
+.product2{
+    height:190px;
+}
+/*------start shoping shop----------*/
+
+.carousel-item{
+    background:black;
+    width:100%;
+    height:350px;
+    position:relative;
+}
+.item{
+    position:absolute;
+    left:70px;
+    bottom:0;
+    right:0;
+    margin-bottom:50px;
+    color:white;
+}
+.overly-image{
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    position:absolute;
+    opacity:.5;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+/*-------start carousel------*/
+.col{
+    border:none;
+    float:left;
+    
+}
+.col input,
+textarea{
+    width:100%;
+    margin-top:10px;
+    border-radius:5px;
+    border:1px solid #333;
+    background:transparent;
+}
+.col input{
+    padding:5px;
+}
+.col input:hover{
+    background:rgb(206, 206, 216);
+}
+.col textarea:hover{
+    background:rgb(206, 206, 216);
+}
+.col input:nth-child(1){
+    width:49%;
+    padding:6px;
+}
+.col input:nth-child(2){
+    width:49%;
+    padding:6px;
+}
+.btn{
+    min-width:150px;
+    border-radius:30px;
+}
+.content{
+    font-size:20px;
+}
+/*-------start contactus------*/
+.responsive-map{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.responsive-map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+/*-----start footer------*/
+
+.title h1,
+.title h2{
+    font-family: 'Dancing Script', cursive;
+}
+.title p{
+    color:gray;
+}
+.title ul li a{
+    text-decoration:none;
+    font-size:20px;
+    color:white;
+}
+.title ul li a:hover{
+    color:red;
+    text-decoration:underline;
+}
+
+.title ol li{
+    width:45px;
+    height:45px;
+    background:white;
+    margin-top:5px;
+    text-align:center;
+    line-height:50px;
+    border-radius:50%;
+    margin-left:45%;
+}
+.title ol li a i{
+    font-size:25px;
+    color:gray;
+    transition:0.4s;
+}
+.title ol li a i:hover{
+    color:black;
+    transform:scale(1.3);
+}
+/*------finish project-----*/
